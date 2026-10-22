@@ -18,3 +18,9 @@ Resources for the LEAP cohort
 ## Docker
 
 - [Docker Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
+- [Docker Curriculum](https://docker-curriculum.com/) - Learn Docker by building real apps.
+
+## Interviews and Product Design
+
+- [What happens to the scooter when you build the bike?](https://uxdesign.cc/mvpdesign-831f38695f77)
+

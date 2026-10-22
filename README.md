@@ -14,6 +14,7 @@ Resources for the LEAP cohort
 
 - [Basic SQL Cheat Sheet](https://github.com/Nierowheezy/sql-cheatsheet/blob/main/basic-sql-cheatsheet.md)
 - [Advanced SQL Cheat Sheet](https://github.com/Nierowheezy/sql-cheatsheet/blob/main/advanced-sql-cheatsheet.md)
+- **[https://erdplus.com/](https://erdplus.com/)** - For designing Entity Relationship Diagrams
 
 ## Docker
 

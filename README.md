@@ -27,7 +27,8 @@ Resources for the LEAP cohort
 
 ## Fauxnance API
 
-- [Fauxnance Dashboard](https://console.fauxnance.neueda.com/) Access coming soon!
+- [Fauxnance Dashboard](https://console.fauxnance.neueda.com/)
+- [Fauxnance Github Docs (better than API reference as of 10/27/26](https://github.com/canaokar/fauxnance-api/)
 - [Fauxnance API Reference](https://api.fauxnance.neueda.com/v1/docs#description/introduction)
 
 

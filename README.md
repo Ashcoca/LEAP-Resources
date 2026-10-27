@@ -21,6 +21,10 @@ Resources for the LEAP cohort
 - [Docker Cheat Sheet](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 - [Docker Curriculum](https://docker-curriculum.com/) - Learn Docker by building real apps.
 
+## Java
+
+- [Animals.java](https://github.com/Ashcoca/LEAP-Resources/blob/main/Java/Animals.java)
+
 ## Fauxnance API
 
 - [Fauxnance Dashboard](https://console.fauxnance.neueda.com/) Access coming soon!

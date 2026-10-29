@@ -1,10 +1,5 @@
 1. Generate the key on the machine that will use it.
 
-Windows instructions to create SSH:
-
-```
-New-Item -ItemType Directory -Path "$HOME\.ssh" -Force
-```
 
 ```bash
 ssh-keygen -t ed25519 -C "course-vm" -f "$HOME\.ssh\id_ed25519" -N '""'
@@ -17,7 +12,7 @@ For a key on your own laptop, set a passphrase.
 2. Copy the public key.
 
 ```bash
-cat ~/.ssh/id_ed25519.pub
+cat ~\.ssh\id_ed25519.pub
 ```
 
 Copy the whole line, which starts with ssh-ed25519. Never copy the private key, the file without .pub.

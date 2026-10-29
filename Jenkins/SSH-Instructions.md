@@ -7,7 +7,7 @@ New-Item -ItemType Directory -Path "$HOME\.ssh" -Force
 ```
 
 ```bash
-ssh-keygen -t ed25519 -C "course-vm" -f ~/.ssh/id_ed25519 -N '""'
+ssh-keygen -t ed25519 -C "course-vm" -f "$HOME\.ssh\id_ed25519" -N '""'
 ```
 
 Leave the passphrase empty only if Jenkins or a non-interactive process will use the key. 

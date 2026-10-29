@@ -1,5 +1,11 @@
 1. Generate the key on the machine that will use it.
 
+Windows instructions to create SSH:
+
+```
+New-Item -ItemType Directory -Path "$HOME\.ssh" -Force
+```
+
 ```bash
 ssh-keygen -t ed25519 -C "course-vm" -f ~/.ssh/id_ed25519 -N ""
 ```

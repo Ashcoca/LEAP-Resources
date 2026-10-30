@@ -2,8 +2,6 @@
 Resources for the LEAP cohort
 
 ### Quick Links
-- [All Engineering Labs](https://github.com/neueda-kestrel/leap-engineering)
-- [Project Details (week to week deliverables)](https://github.com/neueda-kestrel/leap-project/)
 
 ## Git
 

@@ -9,7 +9,7 @@ Leave the passphrase empty only if Jenkins or a non-interactive process will use
 
 For a key on your own laptop, set a passphrase.
 
-2. Copy the public key.
+2. Copy the private key.
 
 ```bash
 cat ~\.ssh\id_ed25519.pub
@@ -30,5 +30,11 @@ The first time, accept GitHub’s host key fingerprint. A successful reply greet
 5. Use SSH clone URLs. Repositories must be addressed as git@github.com:org/repo.git, not the https:// form, or Git will not use the key.
 
 If the key is for Jenkins rather than you, do two more things. Add the private key to Jenkins under Manage Jenkins, Credentials, as an “SSH Username with private key” credential with username git, and select that credential in the job’s Git source. 
+
+In your terminal, generate a PRIVATE key:
+
+```bash
+cat ~\.ssh\id_ed25519
+```
 
 Then make sure GitHub’s host key is trusted by the Jenkins user: either run the test in step 4 as that user, or set the Git Host Key Verification strategy under Manage Jenkins, Security, to accept first connection.

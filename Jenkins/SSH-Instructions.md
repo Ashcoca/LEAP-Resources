@@ -9,7 +9,7 @@ Leave the passphrase empty only if Jenkins or a non-interactive process will use
 
 For a key on your own laptop, set a passphrase.
 
-2. Copy the private key.
+2. Copy the public key.
 
 ```bash
 cat ~\.ssh\id_ed25519.pub

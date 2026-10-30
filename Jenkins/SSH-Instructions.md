@@ -1,5 +1,6 @@
 1. Generate the key on the machine that will use it.
 
+> Note: If you are using a Mac/Linux, these commands will still work but you will need to swap the `/` for `\`
 
 ```bash
 ssh-keygen -t ed25519 -C "course-vm" -f "$HOME/.ssh/id_ed25519" -N ""
@@ -36,7 +37,7 @@ Add the private key to Jenkins under the gear icon in the top right (Manage Jenk
 In your terminal, generate a PRIVATE key:
 
 ```bash
-cat ~\.ssh\id_ed25519
+cat ~/.ssh/id_ed25519
 ```
 
 **One last step!** We need to set the **Git Host Key Verification** strategy in Jenkins. Go to the Jenkins settings (gear icon in the top right) then select Security => then scroll down to find Git Host Key Verification setting and set it to accept first connection.

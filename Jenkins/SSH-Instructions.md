@@ -12,7 +12,7 @@ For a key on your own laptop, set a passphrase.
 2. Copy the public key.
 
 ```bash
-cat ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
 ```
 
 Copy the whole line, which starts with ssh-ed25519. Never copy the private key, the file without .pub.

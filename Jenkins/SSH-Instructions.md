@@ -1,4 +1,8 @@
-1. The goal here is to setup Github SSH access to allow our Jenkins instance to connect to your Github repository. First we'll generate a key on the Windows VMs - but keep in mind these instructions are universal and can be used to setup your github SSH access for any machine! 
+# Usage
+
+The goal here is to setup Github SSH access to allow our Jenkins instance to connect to your Github repository, and it will also allow you to use SSH to access your git repositories. SSH is the widely accepted standard for developers, and using SSH to access resources is a skill you'll use throughout your career for a variety of business and development needs.
+
+1. First we'll generate a key on the Windows VMs - but keep in mind these instructions are universal and can be used to setup your github SSH access for any machine! 
 
 > Note: If you are using a Mac/Linux, these commands will still work but you will need to swap the `/` in the file path for `\`
 

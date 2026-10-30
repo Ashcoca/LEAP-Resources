@@ -21,7 +21,12 @@ Resources for the LEAP cohort
 
 ## Java
 
-- [Animals.java](https://github.com/Ashcoca/LEAP-Resources/blob/main/Java/Animals.java)
+- [MOOC - One of the best resources for learning Java](https://java-programming.mooc.fi/)
+- [Hyperskill - Made by IntelliJ, freemium model](https://hyperskill.org/)
+- [Telusco Youtube Series on Java](https://www.youtube.com/watch?v=q6z_UCBM5Ek)
+   
+- [Animals.java from Ed's Exercise](https://github.com/Ashcoca/LEAP-Resources/blob/main/Java/Animals.java)
+
 
 ## Fauxnance API
 

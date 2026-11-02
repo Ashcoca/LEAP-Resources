@@ -2,8 +2,6 @@
 Resources for the LEAP cohort
 
 ### Quick Links
-- [All Engineering Labs](https://github.com/neueda-kestrel/leap-engineering)
-- [Project Details (week to week deliverables)](https://github.com/neueda-kestrel/leap-project/)
 
 ## Git
 
@@ -23,12 +21,20 @@ Resources for the LEAP cohort
 
 ## Java
 
-- [Animals.java](https://github.com/Ashcoca/LEAP-Resources/blob/main/Java/Animals.java)
+- [MOOC - One of the best resources for learning Java](https://java-programming.mooc.fi/)
+- [Hyperskill - Made by IntelliJ, freemium model](https://hyperskill.org/)
+- [Telusco Youtube Series on Java](https://www.youtube.com/watch?v=q6z_UCBM5Ek)
+   
+- [Animals.java from Ed's Exercise](https://github.com/Ashcoca/LEAP-Resources/blob/main/Java/Animals.java)
+
 
 ## Fauxnance API
 
-- [Fauxnance Dashboard](https://console.fauxnance.neueda.com/) Access coming soon!
+- [Fauxnance Dashboard](https://console.fauxnance.neueda.com/)
+- [Fauxnance Github Docs (better than API reference as of 10/27/26](https://github.com/canaokar/fauxnance-api/)
+- [Fauxnance Supported Currencies/Equities/Crypto Docs](https://github.com/canaokar/fauxnance-api/blob/main/data/universes/us-v1.json)
 - [Fauxnance API Reference](https://api.fauxnance.neueda.com/v1/docs#description/introduction)
+
 
 
 ## Interviews and Product Design

@@ -43,3 +43,10 @@ Resources for the LEAP cohort
 
 - [What happens to the scooter when you build the bike?](https://uxdesign.cc/mvpdesign-831f38695f77)
 
+
+## Redocyl
+
+```bash
+npx --yes @redocly/cli build-docs order-service.yaml -o order-service-docs.html
+```
+

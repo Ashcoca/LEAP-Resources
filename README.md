@@ -36,7 +36,7 @@ Resources for the LEAP cohort
 
 
 ## TDD
-- [https://github.com/Ashcoca/fizzbuzztdd/tree/main](https://github.com/Ashcoca/fizzbuzztdd/tree/main)
+- [TDD FizzBuzz Exercise](https://github.com/Ashcoca/fizzbuzztdd/tree/main)
 
 
 ## Interviews and Product Design

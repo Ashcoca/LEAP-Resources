@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.bookshelf.mapper.AuthorMapper">
+
+  <select id="findBooksByAuthorId" resultType="com.example.bookshelf.model.BookSummary">
+    SELECT
+        b.id,
+        b.title,
+        b.publication_year,
+        a.name AS authorName
+    FROM books b
+    JOIN authors a ON b.author_id = a.id
+    WHERE a.id = #{authorId}
+    ORDER BY b.publication_year
+  </select>
+
+</mapper>

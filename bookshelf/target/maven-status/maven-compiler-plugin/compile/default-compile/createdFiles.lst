@@ -1,0 +1,6 @@
+com/example/bookshelf/BookshelfApplication.class
+com/example/bookshelf/model/Book.class
+com/example/bookshelf/mapper/BookMapper.class
+com/example/bookshelf/model/BookSummary.class
+com/example/bookshelf/mapper/AuthorMapper.class
+com/example/bookshelf/controller/BookshelfController.class

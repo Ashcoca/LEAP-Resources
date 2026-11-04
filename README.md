@@ -50,7 +50,10 @@ Resources for the LEAP cohort
 
 ## Redocyl
 
+- [Redocyl OpenAPI](https://redocly.com/learn/openapi/learning-openapi)
+
 ```bash
+npx @redocly/cli@latest lint <target>
 npx --yes @redocly/cli build-docs order-service.yaml -o order-service-docs.html
 ```
 

@@ -27,6 +27,10 @@ Resources for the LEAP cohort
 - [Animals.java from Ed's Exercise](https://github.com/Ashcoca/LEAP-Resources/blob/main/Java/Animals.java)
 
 
+## Spring
+- [LeetJourney Youtube - ](https://www.youtube.com/@leetjourney)
+- [Marco Behler Spring Framework Guide](https://www.marcobehler.com/guides/spring-framework)
+
 ## Fauxnance API
 
 - [Fauxnance Dashboard](https://console.fauxnance.neueda.com/)

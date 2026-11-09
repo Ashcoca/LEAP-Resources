@@ -40,3 +40,10 @@ Resources for the LEAP cohort
 
 - [What happens to the scooter when you build the bike?](https://uxdesign.cc/mvpdesign-831f38695f77)
 
+## CSS and UI
+
+- [CSS-Tricks Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#css-flexbox-background)
+- [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
+
+
+

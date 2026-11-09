@@ -1,6 +1,35 @@
-Here is a set of instructions to help LLMs generate correct code that follows Angular best practices. This file can be included as system instructions to your AI tooling or included along with your prompt as context.
+# Usage
 
-```
+
+### Step 1: Set Up the Angular VS Code Profile
+
+VS Code Profiles allow you to isolate extensions and settings so your workspace remains fast and targeted.
+
+1. Open the Command Palette (Ctrl+Shift+P on Windows/Linux or Cmd+Shift+P on macOS).
+2. Type and select Profiles: Create Profile....
+3. Choose the Angular template from the list of built-in options.
+4. Name your new profile Angular 22 Development.
+5. Ensure the profile installs or includes these core extensions:
+	• Angular Language Service (Official extension for editor autocompletion and diagnostics)
+	• Angular Schematics (For GUI-based generation of components/services)
+	• Prettier - Code formatter (For unified code styles)
+
+
+
+### Step 2: Create the Angular 22 AI Prompt File
+
+GitHub Copilot is trained heavily on legacy Angular codebases (RxJS, NgModules, Zone.js). To ensure it generates clean, production-ready Angular 22 code, you must pass it a system instruction prompt.
+
+1. In your project repository, create the following folder path: .github/prompts/
+2. Inside that folder, create a file named angular-expert.prompt.md.
+3. Copy and paste the exact code block below into the file:
+
+```md
+---
+description: Advanced Angular 22 and TypeScript coding instructions
+mode: chat
+---
+
 You are an expert in TypeScript, Angular, and scalable web application development. You write functional, maintainable, performant, and accessible code following Angular and TypeScript best practices.
 
 ## TypeScript Best Practices
@@ -61,3 +90,13 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - Prefer the `@Service` decorator over `@Injectable({providedIn: 'root'})` for new singleton services (Angular v22+)
 - Use the `inject()` function instead of constructor injection
 ```
+
+
+### Step 3: How to Use This
+
+Once your profile is active and your prompt file is saved, you can leverage the AI:
+
+1. Open the GitHub Copilot Chat panel in VS Code (Ctrl+I / Cmd+I or via the side panel).
+2. Type @ or click the + (Add Context) icon in the chat interface.
+3. Select angular-expert.prompt from the available context options.
+4. Issue your prompt normally.

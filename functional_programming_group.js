@@ -63,7 +63,8 @@ const pokemons = Object.freeze([
 // 18. (filter + map) Take only the pokémon with an even id, then return their ids doubled.
 //     Expected: [24, 32, 48, 104, 144, 148, 196, 244, 288, 292, 296]
 
-
+const singleType = []
+const dualType = []
 // 19. (forEach) Start with two empty arrays, `singleType` and `dualType`. Use ONE forEach
 //     to push each pokémon's name into the correct array.
 //     Expected: singleType has 14 names, dualType has 9 names

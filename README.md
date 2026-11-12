@@ -60,6 +60,12 @@ npx @redocly/cli@latest lint <target>
 npx --yes @redocly/cli build-docs order-service.yaml -o order-service-docs.html
 ```
 
+# Front End
+
+## Angular
+
+- [Angular.dev Tutorials](https://angular.dev/tutorials/)
+
 ## CSS and UI
 
 - [CSS-Tricks Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#css-flexbox-background)

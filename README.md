@@ -3,6 +3,9 @@ Resources for the LEAP cohort
 
 ### Quick Links
 
+## Reading
+- [https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401](https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401)
+
 ## Git
 
 - [Git Cheat Sheet](https://devopscycle.com/images/cheat-sheets/git/the-ultimate-git-cheat-sheet.png)

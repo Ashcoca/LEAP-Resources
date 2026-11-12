@@ -65,6 +65,7 @@ npx --yes @redocly/cli build-docs order-service.yaml -o order-service-docs.html
 ## Angular
 
 - [Angular.dev Tutorials](https://angular.dev/tutorials/)
+- [Learn Signal Forms](https://angular.dev/tutorials/signal-forms)
 
 ## CSS and UI
 

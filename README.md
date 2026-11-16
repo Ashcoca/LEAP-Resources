@@ -36,6 +36,8 @@ Resources for the LEAP cohort
 
 ## Fauxnance API
 
+Correct URL: https://api.fauxnance.neueda.com
+
 - [Fauxnance Dashboard](https://console.fauxnance.neueda.com/)
 - [Fauxnance Github Docs (better than API reference as of 10/27/26](https://github.com/canaokar/fauxnance-api/)
 - [Fauxnance Supported Currencies/Equities/Crypto Docs](https://github.com/canaokar/fauxnance-api/blob/main/data/universes/us-v1.json)

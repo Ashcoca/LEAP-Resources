@@ -3,6 +3,9 @@ Resources for the LEAP cohort
 
 ### Quick Links
 
+## Reading
+- [https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401](https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401)
+
 ## Git
 
 - [Git Cheat Sheet](https://devopscycle.com/images/cheat-sheets/git/the-ultimate-git-cheat-sheet.png)
@@ -57,10 +60,20 @@ npx @redocly/cli@latest lint <target>
 npx --yes @redocly/cli build-docs order-service.yaml -o order-service-docs.html
 ```
 
+# Front End
+
+## Angular
+
+- [Angular.dev Tutorials](https://angular.dev/tutorials/)
+- [Learn Signal Forms](https://angular.dev/tutorials/signal-forms)
+
 ## CSS and UI
 
 - [CSS-Tricks Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#css-flexbox-background)
 - [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
 
+
+## Live Demo
+- [https://github.com/Ashcoca/angular-demo-leap](https://github.com/Ashcoca/angular-demo-leap)
 
 

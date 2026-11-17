@@ -2,14 +2,6 @@
 
 A 20-minute team competition on Promises, `async/await`, `Promise.all` and `Promise.allSettled`.
 
-| | |
-|---|---|
-| **Audience** | Grads who have learned callbacks, promises and async/await |
-| **Format** | 6 groups, 3 rounds + 1 tie-breaker |
-| **Needs** | One laptop per group with Node.js 18+ (or any browser console) |
-| **File** | Each group gets `quickbite.js` (the starter code below) |
-
----
 
 ## The story
 

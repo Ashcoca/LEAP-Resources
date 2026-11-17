@@ -78,7 +78,7 @@ npx --yes @redocly/cli build-docs order-service.yaml -o order-service-docs.html
 ## Live Demo
 - [Full, too long, Expense Tracker live demo](https://github.com/Ashcoca/angular-demo-leap)
 - [Signals Demo](https://github.com/Ashcoca/signals-demo)
-- [Authenticated Flows Demo]()
+- [Angular Authenticated Flows Demo](https://github.com/Ashcoca/angular-auth-demo)
 - [Testing Angular Demo]()
 
 

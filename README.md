@@ -59,8 +59,9 @@ Correct URL: https://api.fauxnance.neueda.com
 
 ```bash
 npx @redocly/cli@latest lint <target>
-npx --yes @redocly/cli build-docs order-service.yaml -o order-service-docs.html
+npx --yes @redocly/cli build-docs <target.yaml> -o <output.html>
 ```
+> Target.yaml is the yaml file you have with the open api spec --- and output.html is the name of the output file (you choose the name)
 
 # Front End
 
@@ -68,6 +69,7 @@ npx --yes @redocly/cli build-docs order-service.yaml -o order-service-docs.html
 
 - [Angular.dev Tutorials](https://angular.dev/tutorials/)
 - [Learn Signal Forms](https://angular.dev/tutorials/signal-forms)
+- [Angular Docs](https://angular.dev/overview)
 
 ## CSS and UI
 
@@ -78,7 +80,7 @@ npx --yes @redocly/cli build-docs order-service.yaml -o order-service-docs.html
 ## Live Demo
 - [Full, too long, Expense Tracker live demo](https://github.com/Ashcoca/angular-demo-leap)
 - [Signals Demo](https://github.com/Ashcoca/signals-demo)
-- [Angular Authenticated Flows Demo](https://github.com/Ashcoca/angular-auth-demo)
-- [Testing Angular Demo]()
+- [Angular Authenticated Flows (AuthGuard and JWT) Demo](https://github.com/Ashcoca/angular-auth-demo)
+- [Testing Angular Demo (not live)]()
 
 

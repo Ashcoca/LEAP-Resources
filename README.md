@@ -1,10 +1,13 @@
 # LEAP-Resources
 Resources for the LEAP cohort
 
-### Quick Links
 
 ## Reading
 - [https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401](https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401)
+
+### Books
+- [The Phoenix Project - Maybe the best book ever written on DevOps and working on a large, messy project](https://www.amazon.com/clp/0988262592)
+
 
 ## Git
 

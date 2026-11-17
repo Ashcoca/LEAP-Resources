@@ -6,7 +6,7 @@ Resources for the LEAP cohort
 - [https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401](https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401)
 
 ### Books
-- [The Phoenix Project - Maybe the best book ever written on DevOps and working on a large, messy project](https://www.amazon.com/clp/0988262592)
+- [The Phoenix Project](https://www.amazon.com/clp/0988262592) - Maybe the best book ever written on DevOps, IT and the complexities of working on a large, very messy project that is dealing with extreme scope creep. Told like a story and very engaging. Something to keep on your radar and read a few years into your career.
 
 
 ## Git

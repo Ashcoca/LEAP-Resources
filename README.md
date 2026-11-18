@@ -2,7 +2,7 @@
 Resources for the LEAP cohort
 
 ### EXERCISES
-- [Angular Testing Demo and Exercise](https://github.com/Ashcoca/angular-testing-playwright)**
+- [Angular Testing Demo and Exercise](https://github.com/Ashcoca/angular-testing-playwright)
 - **[RBAC Exercise](https://github.com/Ashcoca/RBAC-Exercise)**
 - 
 

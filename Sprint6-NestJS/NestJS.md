@@ -597,3 +597,4 @@ Building manually first, as in this guide, makes it much easier to understand wh
 - [Controllers](https://docs.nestjs.com/controllers)
 - [Providers](https://docs.nestjs.com/providers)
 - [Modules](https://docs.nestjs.com/modules)
+- [HttpClient](https://docs.nestjs.com/application/http-client)

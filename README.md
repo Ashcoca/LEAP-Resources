@@ -1,6 +1,9 @@
 # LEAP-Resources
 Resources for the LEAP cohort
 
+### EXERCISES
+- **[Angular Testing Demo and Exercise](https://github.com/Ashcoca/angular-testing-playwright)**
+
 
 ## Reading
 - [https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401](https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401)

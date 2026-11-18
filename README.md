@@ -2,6 +2,13 @@
 Resources for the LEAP cohort
 
 
+### EXERCISES
+- **[Angular Testing Demo and Exercise](https://github.com/Ashcoca/angular-testing-playwright)**
+- [DB Security Sandbox](https://01e5b9k72q-8765.hosted.obvious.ai/)
+- 
+
+
+
 ## Reading
 - [https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401](https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401)
 
@@ -79,11 +86,15 @@ npx --yes @redocly/cli build-docs <target.yaml> -o <output.html>
 - [CSS-Tricks Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#css-flexbox-background)
 - [Atomic Design](https://atomicdesign.bradfrost.com/chapter-2/)
 
+### Color Palettes
+- [Coolors](https://coolors.co/)
+- [UI Color Palette](https://ui-color-palette.com/)
+
 
 ## Live Demo
 - [Full, too long, Expense Tracker live demo](https://github.com/Ashcoca/angular-demo-leap)
 - [Signals Demo](https://github.com/Ashcoca/signals-demo)
 - [Angular Authenticated Flows (AuthGuard and JWT) Demo](https://github.com/Ashcoca/angular-auth-demo)
-- [Testing Angular Demo (not live)]()
+
 
 

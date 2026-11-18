@@ -2,12 +2,8 @@
 Resources for the LEAP cohort
 
 ### EXERCISES
-- **[Angular Testing Demo and Exercise](https://github.com/Ashcoca/angular-testing-playwright)**
-
-
-### EXERCISES
-- **[Angular Testing Demo and Exercise](https://github.com/Ashcoca/angular-testing-playwright)**
-- [DB Security Sandbox](https://01e5b9k72q-8765.hosted.obvious.ai/)
+- [Angular Testing Demo and Exercise](https://github.com/Ashcoca/angular-testing-playwright)**
+- **[RBAC Exercise](https://github.com/Ashcoca/RBAC-Exercise)**
 - 
 
 

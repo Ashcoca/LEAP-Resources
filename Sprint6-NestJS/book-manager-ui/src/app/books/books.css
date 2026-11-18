@@ -1,0 +1,14 @@
+:host { display: block; max-width: 800px; margin: 2rem auto; font-family: system-ui, sans-serif; }
+.card { border: 1px solid #ddd; border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 1.5rem; }
+form { display: flex; flex-direction: column; gap: 0.5rem; }
+label { display: flex; flex-direction: column; font-weight: 600; }
+input { padding: 0.4rem; font-size: 1rem; }
+button { padding: 0.4rem 0.8rem; cursor: pointer; margin-right: 0.25rem; }
+button.danger { background: #c62828; color: white; border: none; }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 0.5rem; border-bottom: 1px solid #eee; }
+tr.finished td { color: #777; text-decoration: line-through; }
+tr.finished td:last-child, tr.finished td:nth-child(4) { text-decoration: none; }
+.error { color: #c62828; }
+.stats { color: #555; }

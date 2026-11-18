@@ -1,0 +1,71 @@
+<h1>📚 Book Manager</h1>
+
+@if (error()) {
+  <p class="error">{{ error() }}</p>
+}
+
+<section class="card">
+  <h2>Add a Book</h2>
+  <form [formGroup]="form" (ngSubmit)="addBook()">
+    <label>
+      Title
+      <input formControlName="title" placeholder="Dune" />
+    </label>
+    @if (form.controls.title.touched && form.controls.title.invalid) {
+      <small class="error">Title is required.</small>
+    }
+
+    <label>
+      Author
+      <input formControlName="author" placeholder="Frank Herbert" />
+    </label>
+    @if (form.controls.author.touched && form.controls.author.invalid) {
+      <small class="error">Author is required.</small>
+    }
+
+    <label>
+      Pages
+      <input type="number" formControlName="pages" min="1" />
+    </label>
+    @if (form.controls.pages.touched && form.controls.pages.invalid) {
+      <small class="error">Pages must be at least 1.</small>
+    }
+
+    <button type="submit" [disabled]="form.invalid">Add Book</button>
+  </form>
+</section>
+
+<section class="card">
+  <h2>Dashboard</h2>
+  <p class="stats">{{ finishedCount() }} of {{ totalCount() }} books finished</p>
+
+  @if (books().length === 0) {
+    <p>No books yet — add one above.</p>
+  } @else {
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+          <th>Pages</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (book of books(); track book.id) {
+          <tr [class.finished]="book.finished">
+            <td>{{ book.title }}</td>
+            <td>{{ book.author }}</td>
+            <td>{{ book.pages }}</td>
+            <td>{{ book.finished ? '✅ Finished' : '📖 Reading' }}</td>
+            <td>
+              <button (click)="finish(book)" [disabled]="book.finished">Finish</button>
+              <button class="danger" (click)="remove(book)">Delete</button>
+            </td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  }
+</section>

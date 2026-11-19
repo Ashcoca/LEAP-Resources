@@ -2,11 +2,9 @@
 Resources for the LEAP cohort
 
 ### EXERCISES
+- **[SQL Injection and DB Security](https://01e5b9k72q-8765.hosted.obvious.ai/)**
 - [Angular Testing Demo and Exercise](https://github.com/Ashcoca/angular-testing-playwright)
-- **[RBAC Exercise](https://github.com/Ashcoca/RBAC-Exercise)**
-- 
-
-
+- [RBAC Exercise](https://github.com/Ashcoca/RBAC-Exercise)
 
 ## Reading
 - [https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401](https://javujavichi.medium.com/what-is-domain-centric-architecture-e030e609c401)

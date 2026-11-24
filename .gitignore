@@ -1,2 +1,62 @@
+# ===== OS =====
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Secrets / environment =====
 .env
+.env.*
+!.env.example
+
+# ===== Editors / IDEs =====
+.idea/
+*.iml
+*.swp
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.history/
+
+# ===== Java / Maven / Gradle (Spring projects) =====
+target/
+*.class
+*.jar
+*.war
+*.log
+hs_err_pid*
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+.gradle/
+.classpath
+.project
+.settings/
+.factorypath
+.sts4-cache/
+.apt_generated/
+
+# ===== Node / Angular / NestJS =====
+node_modules/
+dist/
+out-tsc/
+.angular/
+.sass-cache/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Python (uv / pip / Jupyter) =====
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
